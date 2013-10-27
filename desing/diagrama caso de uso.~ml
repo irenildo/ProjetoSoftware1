@@ -109,9 +109,9 @@
 <XPD:REF name="Head">RdV8k4L73kK6RhbLsqGoMQAA</XPD:REF>
 <XPD:REF name="Tail">2FLQstRwUkqyOb6NaeaqNgAA</XPD:REF>
 <XPD:OBJ name="NameLabel" type="EdgeLabelView" guid="qW8Di3Olc0uzzKItPiynnAAA">
-<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
 <XPD:ATTR name="Alpha" type="real">-3,6554664419882</XPD:ATTR>
 <XPD:ATTR name="Distance" type="real">99,3629709700752</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Efetua</XPD:ATTR>
 <XPD:REF name="Model">nBGxh73BGE+X9Y4TTu8ZBwAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="EdgeLabelView" guid="yz7qkJ0lEkyLYXKVQD6vPwAA">
@@ -1354,6 +1354,7 @@
 </XPD:OBJ>
 <XPD:ATTR name="#OwnedElements" type="integer">18</XPD:ATTR>
 <XPD:OBJ name="OwnedElements[0]" type="UMLAssociation" guid="nBGxh73BGE+X9Y4TTu8ZBwAA">
+<XPD:ATTR name="Name" type="string">Efetua</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:REF name="Namespace">vSwDErEytEa8gtipMzJGaAAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
@@ -1731,8 +1732,8 @@
 <XPD:REF name="Participant">nX08zvSTI0GzlSpavt4PewAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
 <XPD:REF name="Views[0]">iG7LdAj4KkSShH8mFiwHtgAA</XPD:REF>
-<XPD:REF name="Views[1]">YBeo/nSJ+UyxK15BTyrmXAAA</XPD:REF>
-<XPD:REF name="Views[2]">I1Y40yUoS0eC3/900td4PgAA</XPD:REF>
+<XPD:REF name="Views[1]">I1Y40yUoS0eC3/900td4PgAA</XPD:REF>
+<XPD:REF name="Views[2]">YBeo/nSJ+UyxK15BTyrmXAAA</XPD:REF>
 <XPD:REF name="Views[3]">iOs8ZoPjtkKWjAHDt1LnMgAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Connections[1]" type="UMLAssociationEnd" guid="qb6iJ3ARN0C62loXtpgVKQAA">
@@ -1740,8 +1741,8 @@
 <XPD:REF name="Participant">p/DwCmRhgkCtFg0SeIcZWwAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
 <XPD:REF name="Views[0]">b/DaIwFh40qFTlisqZ+S4wAA</XPD:REF>
-<XPD:REF name="Views[1]">SVC3skqPqE61I8BFaYZSZwAA</XPD:REF>
-<XPD:REF name="Views[2]">7Jg5AOJ4PkmBANeVV1lMxQAA</XPD:REF>
+<XPD:REF name="Views[1]">7Jg5AOJ4PkmBANeVV1lMxQAA</XPD:REF>
+<XPD:REF name="Views[2]">SVC3skqPqE61I8BFaYZSZwAA</XPD:REF>
 <XPD:REF name="Views[3]">+bryS609kE2cORakJ1pl6wAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
