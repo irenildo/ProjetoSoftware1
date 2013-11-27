@@ -22,18 +22,15 @@ public class MainActivity extends Activity {
 	
         confirma.setOnClickListener(new View.OnClickListener() {
 			
-			@Override
+			
+        	@Override
 			public void onClick(View v) {
 				Toast.makeText(MainActivity.this, confirma.getText().toString(),Toast.LENGTH_SHORT).show();
 				
 				
 			}
 		});
-        
-	}
-
-	
-	
+       }
 	
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
