@@ -14,17 +14,42 @@ import android.widget.Toast;
 
 public class MainActivity extends Activity {
 
+	Button btCadastro;
+	
+	
 	@Override
+	
+	
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		
+		btCadastro = (Button) findViewById(R.id.btCadastro);
+		btCadastro.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				
+				chamaCadastro();				
+				
+				
+				// TODO Auto-generated method stub
+				
+			}
+		});
 		final EditText Login = (EditText) findViewById(R.id.Login);
 		final EditText Senha = (EditText) findViewById(R.id.Senha);
 	    Button Entrar = (Button) findViewById(R.id.Entrar);
 	    Button Limpar = (Button) findViewById(R.id.Limpar);
 	
-	Entrar.setOnClickListener(new View.OnClickListener() {
+	
+		
+	
+	    
+	    
+	    
+	    
+	    
+	    Entrar.setOnClickListener(new View.OnClickListener() {
 		
 		@Override
 		public void onClick(View v) {
@@ -74,5 +99,15 @@ public class MainActivity extends Activity {
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
 	}
+
+public void chamaCadastro(){
+		
+		setContentView(R.layout.cadastroatual);
+
+
+
+}
+
+
 
 }
