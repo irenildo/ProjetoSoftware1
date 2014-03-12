@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:orientation="vertical" >
+ 
+    <com.google.android.maps.MapView
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:apiKey="03:5B:96:55:9E:8A:90:2E:E7:CB:02:3B:FC:A6:46:50:7B:8F:30:7F"
+       android:id="@+id/mvMain"
+       android:clickable="true"  />
+ 
+</LinearLayout>
